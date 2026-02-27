@@ -9,7 +9,7 @@ numero_es_primo = int(input("Introduce un numero para comprobar si es primo: "))
 
 import math
 
-for num in range(2, int(math.sqrt(numero_es_primo)) + 1):
+for num in range(2, int(numero_es_primo **0.5) + 1):
 	if (numero_es_primo % num == 0):
 		es_primo = False
 

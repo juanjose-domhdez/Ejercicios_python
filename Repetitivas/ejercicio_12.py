@@ -7,7 +7,6 @@ mes = int(1)
 ahorro_acum = 0
 
 for mes in range (1, 13):
-	cant_mensual = int(input("¿Cuanto has ahorrado en el mes? ",mes))
+	cant_mensual = int(input(f"¿Cuanto has ahorrado en el mes {mes}?: "))
 	ahorro_acum = ahorro_acum +  cant_mensual
 	print("En el mes", mes, "llevas ahorrado ",ahorro_acum)
-	mes += 1
