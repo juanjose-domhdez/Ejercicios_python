@@ -4,11 +4,9 @@
 #Parámetros de entrada: cadena a imprimir centrada
 
 def centrar(cad):
-    # Definir i como entero;
     for i in range(40 -(len(cad)//2)):
         print(" ",end="")
     print(cad)
-    #Imprimo un subrayado con "="
     for i in range (40 - (len(cad)//2)):
         print(" ", end="")
     for i in range(len(cad)):

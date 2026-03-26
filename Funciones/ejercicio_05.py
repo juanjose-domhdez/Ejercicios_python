@@ -21,6 +21,6 @@ for i in range(10):
     lista.append(random.randint(1,100))
 
 vmax, vmin = calcularMax_Min(lista)
-print("Lista:", lista)
-print("El valor maximo es:", vmax)
-print("El valor minimo es:", vmin)
+print("Lista:", {lista})
+print(f"El valor maximo es: {vmax}")
+print(f"El valor minimo es: {vmin}")

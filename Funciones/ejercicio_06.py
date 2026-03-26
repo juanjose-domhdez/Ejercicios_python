@@ -1,4 +1,6 @@
-#Procedimiento CalcularAreaPerimetro: recibe el radio de una circunferencia y devuelve el área y el perímetro.
+# Diseñar una función que calcule el área y el perímetro de una circunferencia. 
+# Utiliza dicha función en un programa principal que lea el radio de una 
+# circunferencia y muestre su área y perímetro.
 
 import math
 
@@ -7,11 +9,10 @@ def area_perimetro(radio):
     perimetro = 2 * math.pi * radio
     return area, perimetro
 
-radio = float(input('Introduce el radio: '))
-
+radio = float(input("Introduce el radio: "))
 area, perimetro = area_perimetro(radio)
 
-print("Área:", area)
-print("Perímetro:", perimetro)
+print(f"Área: {area}")
+print(f"Perímetro: {perimetro}")
 
     

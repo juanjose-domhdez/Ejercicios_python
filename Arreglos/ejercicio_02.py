@@ -3,8 +3,8 @@
 
 tam_vector = 5
 
-vector1 = [""] * tam_vector
-vector2 = [""] * tam_vector
+vector1 = [""] * 5
+vector2 = [""] * 5
 
 for indicador in range(tam_vector):
     vector1[indicador] = input(f"Dame la cadena {indicador + 1}: ")

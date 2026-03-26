@@ -8,7 +8,7 @@ matriz = [[0.0] * 5 for _ in range(5)]
 num_filas = 5
 num_cols = 5
 
-for fila in range(num_cols):
+for fila in range(num_filas):
     for col in range(num_cols):
         matriz[fila][col] = int(input(f"Introduce el numero de la fila {fila+1} y columna {col+1}: "))
 

@@ -3,7 +3,7 @@
 # la nota media, la nota más alta que ha sacado y la menor.
 
 tam_notas = 5
-notas = [0] * tam_notas
+notas = [0] * 5
 
 for indice in range(tam_notas):
     while True:
